@@ -7,6 +7,9 @@
 //     if (num % 5 === 0) return 'buzz'
 //     return num;
 // }
+
+// we then can refactor to this
+
 function fizzBuzz(num) {
     let string = '';
     if (num % 3 === 0) string += 'fizz';
